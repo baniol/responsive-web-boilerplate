@@ -12,6 +12,10 @@ Hybrid boilerplate for responsive website development. By default it consists of
 
 All styles are written with Scss and scripts with CoffeeScript. For live compilation use `grunt` command.
 
+## Demo
+
+Here is a link to a demo view with responsive tester. To see the responsiveness of the project switch between resolutions below and above 640 px.
+[responsive tester](http://responsive-tester.com?url=http://responsive-boilerplate.baniowski.pl/&res=480x800)
 
 ## Grunt tasks
 (to be completed)
