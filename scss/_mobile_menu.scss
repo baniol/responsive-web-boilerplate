@@ -1,0 +1,51 @@
+.page-wrap {
+	float: right;
+	width: 100%;
+	transition: width 0.3s ease;
+}
+
+.main-nav.side {
+	display:none;
+	position: static;
+	background: #3B3B3B;
+	@include tablet-portrait-and-up{
+		display:block;
+	}
+	@include retina{
+		font-size:2.4em;
+	}	
+
+	ul{
+		list-style:none;
+		margin:1em 0 0 0;
+		padding:0;
+
+		li{
+
+			a {
+				display: block;
+				color: white;
+				padding: 15px;
+				background: linear-gradient(#3E3E3E, #383838);
+				&:hover, &:focus { color: #3F94BF; }
+			}
+
+			ul{
+				margin:0;
+				li a{
+					padding:15px 15px 15px 35px;
+				}
+			}
+		}
+	}
+}
+
+.open-menu {
+	display: none;
+	font-size: 4.2em;
+	font-family: Arial;
+	margin-left: 20px;
+	@include tablet-portrait-and-below{
+		display:block;
+	}
+}

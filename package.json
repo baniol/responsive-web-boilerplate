@@ -1,0 +1,15 @@
+{
+	"name": "responsive-app-bolerplate",
+	"version": "0.0.1",
+	"dependencies": {},
+	"devDependencies": {
+		"grunt":"*",
+		"grunt-contrib-coffee": "*",
+		"grunt-contrib-watch":"*"
+		"grunt-contrib-connect": "*",
+		"grunt-contrib-compass": "*",
+		"grunt-contrib-uglify": "*",
+		"grunt-open": "*",
+		"mocha":"*",
+	}
+}
